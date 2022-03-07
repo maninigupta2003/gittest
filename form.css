@@ -1,0 +1,128 @@
+input[type="text"] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  input[type="email"] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  input[type="number"] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+  input[type="password"] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+  
+  .heading {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 20px;
+    display: block;
+  }
+  input[type="text"]:focus {
+    border: 3px solid #555;
+    background-color: lightblue;
+  }
+  input[type="email"]:focus {
+    border: 3px solid #555;
+    background-color: lightblue;
+  }
+  input[type="number"]:focus {
+    border: 3px solid #555;
+    background-color: lightblue;
+  }
+  input[type="password"]:focus { 
+    border: 3px solid #555; 
+    background-color: lightblue; 
+  } 
+  input[type="date"]:focus { 
+    border: 3px solid #555; 
+    background-color: lightblue; 
+  } 
+   
+  textarea { 
+    width: 100%; 
+    padding: 10px 20px; 
+    margin: 10px 0; 
+    box-sizing: border-box; 
+    border-radius: 4px;
+    font-size: 20px;
+  }
+  textarea:focus {
+    border: 3px solid #555;
+    background-color: lightblue;
+  }
+  select {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+  input[type="checkbox"] {
+    width: 20%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 20px;
+    size: 20px;
+  }
+  input[type="radio"] {
+    width: 20%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    size: 20px;
+  }
+  input[type="date"] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    size: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: center;
+  }
+  input[type="reset"] {
+    background-color: #aa0404;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: center;
+  }
